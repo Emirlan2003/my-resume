@@ -1,0 +1,131 @@
+.jg {
+  background-image: url("../../../public/images/jalgroup.png");
+}
+
+.dg {
+  background-image: url("../../../public/images/dugood.png");
+}
+
+.eg {
+  background-image: url("../../../public/images/ergotech.png");
+}
+
+.dw {
+  background-image: url("../../../public/images/datax.png");
+}
+
+.tk {
+  background-image: url("../../../public/images/tunuk.png");
+}
+
+.in {
+  background-image: url("../../../public/images/innopolis.png");
+}
+
+.jg,
+.dg,
+.eg,
+.dw,
+.tk,
+.in {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  filter: brightness(0.7);
+  border-radius: 12px;
+  z-index: -1;
+}
+
+.card {
+  width: 415px;
+  height: 275px;
+  border-radius: 12px;
+  border: 1px solid rgb(231, 231, 231);
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 0px;
+  margin-bottom: 40px;
+}
+
+.cardBack {
+  width: 415px;
+  height: 275px;
+  border-radius: 12px;
+  border: 2px solid #6E07F3;
+}
+
+.title {
+  font-size: 24px;
+  color: #141c3a;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.mainTitle {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #141c3a;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.tools {
+  font-size: 16px;
+  color: #6E07F3;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.skills {
+  font-size: 14px;
+  color: #141c3a;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.btnBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnBack {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #6E07F3;
+  background-color: transparent;
+  color: #6E07F3;
+  border-radius: 0px;
+  margin-top: 7px;
+}
+
+.btnA {
+  width: 200px;
+  padding: 8px 0;
+  border: 2px solid #6E07F3;
+  background-color: transparent;
+  color: #6E07F3;
+  border-radius: 0px;
+  margin-top: 7px;
+}

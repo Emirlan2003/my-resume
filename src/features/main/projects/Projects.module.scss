@@ -1,0 +1,23 @@
+.body {
+  margin: 100px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  color: #141c3a;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.cardList {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cardList :global(.react-card-flip) {
+  margin: 20px 5px;
+}

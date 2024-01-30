@@ -1,4 +1,4 @@
-import { Header, DetailsInfo, MainInfo } from "@features/main";
+import { Header, DetailsInfo, MainInfo, Projects } from "@features/main";
 
 export const MainLayout = () => {
   return (
@@ -6,6 +6,7 @@ export const MainLayout = () => {
       <Header />
       <MainInfo />
       <DetailsInfo />
+      <Projects />
     </div>
   );
 };
