@@ -21,3 +21,9 @@
 .cardList :global(.react-card-flip) {
   margin: 20px 5px;
 }
+
+@media (max-width: 1400px) {
+  .cardList {
+    justify-content: space-around;
+  }
+}

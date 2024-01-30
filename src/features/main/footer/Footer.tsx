@@ -24,6 +24,9 @@ export const Footer = () => {
         <a href="mailto:emir03kgkg@gmail.com" target="blank">
           <img src={Links.email} alt="" className={styles.icon} />
         </a>
+        <a href="https://github.com/Emirlan2003/" target="blank">
+          <img src={Links.github} alt="" className={styles.icon} />
+        </a>
       </div>
       <div className={styles.made}>Made by Emir Taalaibekov</div>
     </div>

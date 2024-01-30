@@ -70,3 +70,38 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+@media (max-width: 1000px) {
+  .stackBlock {
+    flex-direction: column;
+  }
+  .stackBlockDetails {
+    width: 100%;
+  }
+  .stackBlockDetailsWhBorder {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  .desc {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .descBlock {
+    height: 700px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 24px;
+  }
+  .desc {
+    font-size: 16px;
+  }
+  .descBlock {
+    height: 650px;
+  }
+}
