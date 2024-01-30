@@ -1,0 +1,72 @@
+.descBlock {
+  background-color: #6E07F3;
+  height: 610px;
+  text-align: center;
+  padding-top: 140px;
+}
+
+.title {
+  font-size: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.desc {
+  margin: 25px auto;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  max-width: 800px;
+}
+
+.stackBlock {
+  border: 1px solid rgb(231, 231, 231);
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 12px;
+  margin: -190px auto 0;
+}
+
+.stackBlockDetailsWhBorder {
+  width: 33%;
+  text-align: center;
+  padding: 70px 45px;
+  border-right: 1px solid rgb(231, 231, 231);
+}
+
+.stackBlockDetails {
+  width: 33%;
+  text-align: center;
+  padding: 70px 45px;
+}
+
+.img {
+  width: 90px;
+}
+
+.stackTitle {
+  color: #141c3a;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 24px 0;
+}
+
+.stackDesc {
+  color: #141c3a;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.stackDesc div {
+  margin-top: 5px;
+}
+
+.stackTools {
+  margin-top: 50px;
+  color: #6E07F3;
+  font-size: 18px;
+  font-weight: 400;
+}
