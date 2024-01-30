@@ -8,7 +8,7 @@ import styles from "./LanguageSelector.module.scss";
 const { Option } = Select;
 
 export const LanguageSelector = () => {
-  const lang = LocalStorage.getItem(LocalStorageKey.Lang);
+  const lang = LocalStorage.getItem(LocalStorageKey.Lang) || "en";
 
   const changeLanguage = (language: string) => {
     i18n.changeLanguage(language);
@@ -26,7 +26,6 @@ export const LanguageSelector = () => {
     <Select {...props} className={styles.select}>
       <Option value="en">EN</Option>
       <Option value="ru">RU</Option>
-      <Option value="ky">KY</Option>
     </Select>
   );
 };

@@ -9,7 +9,7 @@ i18n
   .use(XHR)
   .use(initReactI18next)
   .init({
-    fallbackLng: LocalStorage.getItem(LocalStorageKey.Lang) || "ru",
+    fallbackLng: LocalStorage.getItem(LocalStorageKey.Lang) || "en",
     debug: true,
     backend: {
       loadPath: "/locales/{{lng}}/{{ns}}.json",
@@ -17,7 +17,7 @@ i18n
     interpolation: {
       escapeValue: false,
     },
-    supportedLngs: ["en", "ru", "ky"],
+    supportedLngs: ["en", "ru"],
   });
 
 export default i18n;

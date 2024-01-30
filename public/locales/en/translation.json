@@ -1,0 +1,44 @@
+{
+  "logo-placeholder": "LOGO",
+  "title": "Fullstack Developer",
+  "desc": "Designing and coding beauty in every line - making the simple incredibly beautiful.",
+  "details": {
+    "title": "Hello, I'm Emir. Nice to meet you.",
+    "desc": "For over 3 years, I've been successfully working with JavaScript. My experience includes collaborating with international distributed teams and developing projects for major organizations and government projects. Outside of work, I'm learning English and preparing for B2 level certification with the goal of reaching a confident C1 level. I'm always open to new knowledge and regularly elevate my skills.",
+    "design": {
+      "title": "Design",
+      "desc": "I appreciate a simple content structure, clean design templates, and thoughtful interactions.",
+      "language": "Things I enjoy creating:",
+      "tools": "Design tools:"
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "desc": "I love writing code from scratch, bringing ideas to life in the browser.",
+      "language": "Languages I use:",
+      "tools": "Development tools:"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "desc": "My code is the realization of ideas brought to life in your browser.",
+      "language": "Languages I use:",
+      "tools": "Development tools:"
+    }
+  },
+  "work": {
+    "title": "My Recent Works",
+    "desc": "Project Description",
+    "tools": "Technologies used:",
+    "visit": "Visit website",
+    "jg": "A platform building modern residential complexes, green areas, public spaces, and more.",
+    "dg": "An online platform for organizing and finding volunteer events.",
+    "eg": "A group of enthusiast developers who decided to create a new approach to development.",
+    "dw": "Website for developers in various fields: financial sector, IT solution development from scratch, etc.",
+    "tk": "Provides psychological assistance in a gaming format.",
+    "in": "Communication among students, establishing new connections and friendships. Discussion of relevant topics in education and future careers, organizing events with guest speakers and masterclasses. Hosting cultural events and festivals."
+  },
+  "footer": {
+    "title": "Living, learning, and leveling up day by day."
+  },
+  "more": "Learn More",
+  "back": "Back"
+}

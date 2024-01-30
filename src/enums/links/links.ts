@@ -9,5 +9,11 @@ export enum Links {
   ergotech = "/images/ergotech.png",
   innopolis = "/images/innopolis.png",
   jalgroup = "/images/jalgroup.png",
-  tunuk = "/images/tunuk.png"
+  tunuk = "/images/tunuk.png",
+  mainImage = "/images/mainImage.png",
+  email = "/images/email.png",
+  instagram = "/images/instagram.png",
+  linkedin = "/images/linkedin.png",
+  telegram = "/images/telegram.png",
+  whatsapp = "/images/whatsapp.png"
 }
