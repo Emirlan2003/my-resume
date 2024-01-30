@@ -1,13 +1,9 @@
 export const designLanguage = "UX, UI, Web, Apps";
 
-export const designStack = [
-  "Figma",
-  "Canva",
-  "Sketch",
-  "Webflow",
-];
+export const designStack = ["Figma", "Canva", "Sketch", "Webflow"];
 
-export const frontendLanguage = "Javascript, Typescript, React, Jquery, Next JS, Vue";
+export const frontendLanguage =
+  "Javascript, Typescript, React, Jquery, Next JS, Vue";
 
 export const frontendStack = [
   "Redux",
@@ -33,5 +29,5 @@ export const backendStack = [
   "Bcrypt",
   "Rxjs",
   "Typeorm",
-  "Nodemailer"
+  "Nodemailer",
 ];

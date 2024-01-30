@@ -5,12 +5,12 @@ import { useTranslation } from "react-i18next";
 import styles from "./FlipCard.module.scss";
 
 interface IProps {
-  title: string,
-  style: string,
-  desc: string,
-  tools: string,
-  url?: string,
-};
+  title: string;
+  style: string;
+  desc: string;
+  tools: string;
+  url?: string;
+}
 
 export const FlipCard = ({ data }: { data: IProps }) => {
   const { t } = useTranslation();
@@ -33,17 +33,12 @@ export const FlipCard = ({ data }: { data: IProps }) => {
         <div className={styles.tools}>{t("work.tools")}</div>
         <div className={styles.skills}>{data.tools}</div>
         <div className={styles.btnBlock}>
-          {data.url && <a
-            className={styles.btnA}
-            href={data.url}
-            target="blank"
-          >
-            {t("work.visit")}
-          </a>}
-          <Button
-            className={styles.btnBack}
-            onClick={() => setFlip(false)}
-          >
+          {data.url && (
+            <a className={styles.btnA} href={data.url} target="blank">
+              {t("work.visit")}
+            </a>
+          )}
+          <Button className={styles.btnBack} onClick={() => setFlip(false)}>
             {t("back")}
           </Button>
         </div>

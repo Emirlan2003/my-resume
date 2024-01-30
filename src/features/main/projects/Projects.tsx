@@ -1,7 +1,7 @@
 import { projectList } from "@constants/projects";
-import styles from "./Projects.module.scss";
 import { useTranslation } from "react-i18next";
 import { FlipCard } from "@ui-kit/flipCard";
+import styles from "./Projects.module.scss";
 
 export const Projects = () => {
   const { t } = useTranslation();

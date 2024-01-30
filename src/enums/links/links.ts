@@ -16,5 +16,5 @@ export enum Links {
   linkedin = "/images/linkedin.png",
   telegram = "/images/telegram.png",
   whatsapp = "/images/whatsapp.png",
-  github = "/images/git.png"
+  github = "/images/git.png",
 }

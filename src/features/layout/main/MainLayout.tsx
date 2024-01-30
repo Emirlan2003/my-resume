@@ -1,4 +1,10 @@
-import { Header, DetailsInfo, MainInfo, Projects, Footer } from "@features/main";
+import {
+  Header,
+  DetailsInfo,
+  MainInfo,
+  Projects,
+  Footer,
+} from "@features/main";
 
 export const MainLayout = () => {
   return (

@@ -12,7 +12,10 @@ export const Footer = () => {
         <a href="https://www.instagram.com/taalaibekovvv__/" target="blank">
           <img src={Links.instagram} alt="" className={styles.icon} />
         </a>
-        <a href="https://www.linkedin.com/in/emir-taalaibekov-5a2419227/" target="blank">
+        <a
+          href="https://www.linkedin.com/in/emir-taalaibekov-5a2419227/"
+          target="blank"
+        >
           <img src={Links.linkedin} alt="" className={styles.icon} />
         </a>
         <a href="https://t.me/undefinedOrNull" target="blank">
