@@ -8,7 +8,7 @@ export enum Links {
   dugood = "/images/dugood.png",
   ergotech = "/images/ergotech.png",
   innopolis = "/images/innopolis.png",
-  jalgroup = "/images/jalgroup.png",
+  jalgroup = "/images/store.png",
   tunuk = "/images/tunuk.png",
   mainImage = "/images/mainImage.png",
   email = "/images/email.png",

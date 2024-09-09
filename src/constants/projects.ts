@@ -1,11 +1,19 @@
 export const projectList = [
   {
-    title: "Jal Group Asia",
+    title: "Barcelona store",
     style: "jg",
     desc: "jg",
     tools:
       "React, Redux Saga, Typescript, Rest API, Ant Design, Formik,  Axios, Jest, LESS, AWS amplify, Github",
-    url: "https://barcelona.kg/",
+    url: "https://store.barcelona.kg/",
+  },
+  {
+    title: "Barcelona experiences",
+    style: "tk",
+    desc: "tk",
+    tools:
+      "React, Redux Saga, Typescript, Rest API, Ant Design, Formik,  Axios, Jest, LESS, AWS amplify, Github, Websocket, ESLint",
+    url: "https://experience.barcelona.kg/",
   },
   {
     title: "Dugood",
@@ -30,14 +38,6 @@ export const projectList = [
     tools:
       "React, RTK Query, Next.js, Node JS, Nest JS, Typescript, Ant Design, Axios, Jest, Websocket, SASS, Azure, AWS",
     url: "https://dataxway-front.vercel.app/",
-  },
-  {
-    title: "Tunuk",
-    style: "tk",
-    desc: "tk",
-    tools:
-      "React, Redux Saga, Typescript, Rest API, Ant Design, Formik,  Axios, Jest, LESS, AWS amplify, Github, Websocket, ESLint",
-    url: "https://tunuk-oi-game-977brow6q-kenzy51.vercel.app/",
   },
   {
     title: "Innopolis Club",
