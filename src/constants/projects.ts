@@ -16,20 +16,20 @@ export const projectList = [
     url: "https://experience.barcelona.kg/",
   },
   {
+    title: "JalGroupAsia",
+    style: "eg",
+    desc: "eg",
+    tools:
+      "JavaScript, Mobx, Next.js, Typescript, Material UI, React testing library, ESLint, Docker, Microsoft SignalR, AWS amplify, Gitlab",
+    url: "https://ergotech.io/",
+  },
+  {
     title: "Dugood",
     style: "dg",
     desc: "dg",
     tools:
       "React, RTK Query, Next.js, Node JS, Nest JS, Typescript, Rest  API, Ant Design, Axios, Jest, Websocket, SASS, Azure, AWS, Gitlab",
     url: "https://www.letsdugood.org/",
-  },
-  {
-    title: "Ergotech",
-    style: "eg",
-    desc: "eg",
-    tools:
-      "JavaScript, Mobx, Next.js, Typescript, Material UI, React testing library, ESLint, Docker, Microsoft SignalR, AWS amplify, Gitlab",
-    url: "https://ergotech.io/",
   },
   {
     title: "DataxWay",
