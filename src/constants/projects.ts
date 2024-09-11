@@ -21,7 +21,7 @@ export const projectList = [
     desc: "eg",
     tools:
       "JavaScript, Mobx, Next.js, Typescript, Material UI, React testing library, ESLint, Docker, Microsoft SignalR, AWS amplify, Gitlab",
-    url: "https://ergotech.io/",
+    url: "https://jalgroupasia.kg/",
   },
   {
     title: "Dugood",
