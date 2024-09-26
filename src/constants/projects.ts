@@ -37,7 +37,6 @@ export const projectList = [
     desc: "dw",
     tools:
       "React, RTK Query, Next.js, Node JS, Nest JS, Typescript, Ant Design, Axios, Jest, Websocket, SASS, Azure, AWS",
-    url: "https://dataxway-front.vercel.app/",
   },
   {
     title: "Innopolis Club",
